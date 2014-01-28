@@ -1,0 +1,38 @@
+{
+  "name": "node-lyfepage",
+  "description": "A Node.js driver for LyfePage social network.",
+  "keywords": [
+    "lyfepage",
+    "social",
+	"network",
+    "authentication",
+    "node",
+    "node.js"
+  ],
+  "version": "0.1.0",
+  "author": {
+    "name": "Giraldo Rosales",
+    "email": "giraldo@nitrogenlabs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nitrog7/node-lyfepage.git"
+  },
+  "dependencies": {
+    "lodash": "*",
+    "bluebird": "*"
+  },
+  "main": "./lib/lyfepage/index",
+  "directories": {
+    "lib": "./lib/lyfepage"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}
